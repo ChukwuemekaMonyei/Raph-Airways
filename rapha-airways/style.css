@@ -1,0 +1,597 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F6F8;
+}
+
+#Hero, #Awards {
+    margin: 0px;
+    padding: 20px 10px;
+    background-repeat: no-repeat;
+    background-size: top right;
+    height: 100vh;
+}
+
+#Hero{
+    background-image: url(image/img/hero.png);
+}
+
+
+.navigation ul {
+    list-style: none;
+}
+
+.navigation li+li:before {
+    padding: 4px;
+    color: #ffffff;
+    content: "/\00a0";
+}
+
+.navigation ul li {
+    display: inline;
+    padding: 0px 5px;
+    position: relative;
+    bottom: 40px;
+    left: 76%;
+}
+
+.navigation ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: 6px 6px 9px rgb(192, 201, 255);
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arsenal;
+    color: #2970db;
+}
+
+ ul li a:hover {
+    background-color: transparent;
+    color: rgba(0, 68, 255, 0.719);
+    text-shadow: 6px 6px 9px rgb(77, 102, 136);
+    text-decoration: underline;
+}
+
+nav h3, nav span {
+    font-style: oblique;
+}
+
+nav h3 {
+    color: whitesmoke;
+    font-size: large;
+    font-weight: bold;
+}
+
+nav span {
+    font-weight: lighter;
+    color: #2970db;
+}
+
+.hero {
+    text-align: center;
+    margin: 90px 0px;
+}
+
+.hero-1 h1 {
+    font-size: 90px;
+    font-weight: bolder;
+    letter-spacing: normal;
+    color: whitesmoke;
+    font-style: oblique;
+}
+
+.hero-1 p {
+    padding: 0px;
+    position: relative;
+    bottom: 50px;
+    color: whitesmoke;
+    font-weight: light;
+    font-size: 30px;
+}
+
+.hero .btn a {
+    color: white;
+    font-weight: light;
+    font-size: 15px;
+    width: 500px;
+    background-color: #2970db;
+    border-radius: 60px;
+    padding: 10px 55px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: width 2s;
+}
+
+.continent button:hover {
+    color: #2970db;
+}
+
+.btn a:hover, .continent button:hover {
+    background-color: transparent;
+    border: 2px ridge #2970db;
+}
+
+::marker {
+    color: whitesmoke;
+    font-size: larger;
+    font-weight: bold;
+}
+
+
+
+.features {
+    display: flex;
+    margin: 3.9rem;
+    padding: 50px 110px;
+    gap: 10vw;
+}
+
+.feat-1 {
+    text-align: left;
+}
+
+.feat-1 h2 {
+    font-weight: lighter;
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 2px;
+}
+
+.feat-1 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+.feat-2 ul {
+    background-color: #2970db;
+    color: whitesmoke;
+    line-height: 2;
+    font-size: large;
+    font-weight: lighter;
+    width: 450px;
+    padding: 50px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.feat-2 p {
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-top: 0px;
+}
+
+#Continental {
+    margin: 70px 0px;
+    text-align: center;
+}
+
+.continent h1 {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    padding-bottom: 15px;
+}
+
+.img {
+    width: 600px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.img h2 {
+    font-size: 20px;
+    border: 2px solid transparent;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: whitesmoke;
+    font-size: x-large;
+    font-weight: 500;
+    padding: 120px 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.asia {
+    background-image: url(image/continent/asia.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.america {
+    background-image: url(image/continent/america.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.europe {
+    background-image: url(image/continent/europe.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.continent button {
+    text-transform: uppercase;
+    padding: 10px 50px;
+    background-color: #2970db;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin: 30px;
+}
+
+
+#Sign-up {
+    display: inline-flex;
+    background-color: #2970db;
+    gap: 100px;
+    padding-right: 173px;
+    padding-bottom: 0px;
+    background-size: cover;
+}
+
+
+.signup {
+    padding-bottom: 0px;
+}
+
+.sign-up button {
+    background-color: #ffffff;
+    border-radius: 30px;
+    padding: 15px 70px;
+    color: #2970db;
+    margin-bottom: 0;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.sign-up button:hover {
+    background-color: transparent;
+    border: 2px ridge #ffffff;
+    color: whitesmoke;
+}
+
+.sign-up p {
+    padding-top: 0px;
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+
+.sign-up h4 {
+    font-size: 50px;
+    width: 325px;
+    color: whitesmoke;
+}
+
+
+.cmnt>div {
+    display: inline-block;
+    margin: 10px 100px;
+}
+
+.cmnt h2 {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 4rem;
+    padding: 15px 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+}
+
+.cmnt h3 {
+    text-transform: uppercase;
+    font-size: small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.review, .review1, .review2 {
+    width: 200px;
+    height: auto;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    font-size: 3.5vh;
+    padding: 20px;
+    line-height: 1.5;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    margin: 20px;
+}
+
+.review img, .review1 img, .review2 img {
+    border-radius: 50%;
+    padding-right: 10px;
+    /* float: left; */
+}
+
+.fa-sharp {
+    color: #2970db;
+    font-size: 10vh;
+}
+
+#Awards {
+    margin-top: 50px;
+    background-image: url(image/20240123_151216_0005.png);
+}
+
+#Awards>div {
+    display: inline-block;
+    margin: 35px;
+    padding-top: 20px;
+}
+
+.soaree {
+    width: 200px;
+    font-size: 6vh;
+    color: #ffffff;
+    position: relative;
+    left: 80px;
+}
+
+.awards {
+    width: 550px;
+    height: 200px;
+    box-sizing: border-box;
+    padding: 6px 30px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #000;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 3vh;
+    position: relative;
+    left: 400px;
+}
+
+.awards:hover {
+    border: 2px dashed #000;
+}
+
+footer h2 {
+    margin: 30px 90px 100px;
+    font-size: 6vh;
+    color: #2970db;
+    font-style: oblique;
+}
+
+footer span {
+    font-weight: lighter;
+}
+
+footer>div {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 0px 70px;
+}
+
+.contact {
+    display: inline-block;
+    width: 200px;
+    margin: 20px 70px;
+}
+
+.contact a {
+    display: block;
+    font-size: 3vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.location {
+    position: relative;
+    width: 200px;
+    display: inline-flex;
+    padding: 15px 30px;
+    bottom: 105px;
+}
+
+/* .location h3 {
+    display: inline;
+} */
+
+.location p {
+    padding: 20px 50px;
+    font-size: 2vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer .copyright {
+    width: 500px;
+    margin: 0px 525px;
+    font-size: 2vh;
+    text-transform: capitalize;
+    /* text-shadow: 4px 7px 7px #2970db; */
+    padding: 30px 0px;
+    color: #2970db;
+}
+
+@media  screen and (max-width: 800px) {
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #F2F6F8;
+    }  
+    
+    .navigation ul {
+        text-align: flex-start;
+    }
+
+    #Hero, #Awards  {
+        margin: 0px;
+        padding: 20px 10px;
+        /* background-image: url(image/img/hero.png); */
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    nav {
+        margin: 50px;
+    }
+
+    .navigation ul li {
+        display: inline;
+        padding: 0px 5px;
+        position: relative;
+        left: 60%;
+    }
+
+    .features {
+        display: inline-flex;
+        margin: 0px 20px;
+        gap: 1vw;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .feat-1 {
+        max-width: 50%;
+    }
+ 
+    
+.feat-1 h2 {
+    font-weight: lighter;
+    font-size: 20px;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.feat-1 p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+    .feat-2 ul {
+        background-color: #2970db;
+        color: whitesmoke;
+        line-height: 1.5;
+        font-size: large;
+        font-weight: lighter;
+        width: 225px;
+        padding: 25px;
+        box-sizing: border-box;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    .feat-2 p {
+        font-size: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: 300;
+        margin-top: 0px;
+    }
+
+
+    .continent h1 {
+        text-align: center;
+        text-transform: capitalize;
+        font-size: 5vh;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
+    }
+
+    .img {
+        display: inline-flex;
+        width: 100%;
+        gap: 50px;
+    }
+
+    .img h2 {
+        width: 200px;
+        height: 200px;
+    }
+
+    #Sign-up {
+        gap: 50px;
+    }
+
+    .signup img {
+        width: 400px;
+    }
+
+    .cmnt h2 {
+        text-align: center;
+        font-size: 2rem;
+        text-transform: capitalize;
+    }
+
+    .cmnt h3 {
+        text-transform: uppercase;
+        font-size: x-small;
+    }
+
+    .review, .review1, .review2 {
+        width: 100px;
+        font-size: 2.33vh;
+        line-height: 1;
+        font-weight: 200;
+        margin: 2px;
+    }
+    
+    .review img, .review1 img, .review2 img {
+        padding-right: 5px;
+        width: 25;
+        height: 25;
+        /* float: left; */
+    }
+    
+    .fa-sharp {
+        color: #2970db;
+        font-size: 5vh;
+    }
+
+    .cmnt>div {
+        display: inline-block;
+        margin: 5px 50px;
+    }
+
+    #Awards {
+        margin-top: 25px;
+        display: inline-flex;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .awards {
+        width: 275px;
+        height: 120px;
+        box-sizing: border-box;
+        padding: 0px 15px;
+        font-size: 2vh;
+        position: relative;
+        top: 50px;
+        left: 150px;
+    }
+
+    footer .copyright {
+        width: 250px;
+        margin: 0px 35%;
+    }
+
+}
+
+/*@media  screen and (max-width: 360px)*/

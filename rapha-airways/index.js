@@ -1,0 +1,1 @@
+window.document.getElementById('demo').innerHTML = window.innerWidth + "px" + " " + window.innerHeight + "px";
